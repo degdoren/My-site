@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Портфолио Junior верстальщика</title>
+  </head>
 
-You can use the [editor on GitHub](https://github.com/degdoren/My-site/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  <body>
+    <header class="page-header">
+  <div class="container">
+    degdoren78@gmail.com  +380959476040
+  </div>
+</header>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <section class="hero-image">
+    	<div class="container">
+      <h1 class="heading">Александр Георгинов</h1>
+      <p>Junior верстальщик</p>
+  </div>
+    </section>
 
-### Markdown
+    <section class="intro">
+    	<div class="container">
+      <h2 class="subheading">Давайте познакомимся</h2>
+      <h3>Пара слов о себе</h3>
+      <p>Я Александр Георгинов. Мне 17 лет прошёл курсы на (html academy) на которых и научился программировать. Имею более 5 лет опыта работы за компьютером. Надеюсь на сотрудничество.</p>
+      <h3>Чем могу быть полезен</h3>
+      <p>Занимаюсь вёрсткой сайтов и могу помочь в поисках багов.</p>
+  </div>
+    </section>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <section class="portfolio">
+    	<div class="container">
+      <h2 class="subheading">Мои работы</h2>
 
-```markdown
-Syntax highlighted code block
+      <h3>Сайт инструктора Кекса</h3>
+      <p>Небольшой лендинг о школе для начинающих.</p>
 
-# Header 1
-## Header 2
-### Header 3
+      <h3>Блог начинающего верстальщика</h3>
+      <p>Статический блог про обучение HTML и CSS.</p>
+  </div>
+    </section>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/degdoren/My-site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    <footer class="page-footer">
+    	<div class="container">
+      Контакты в подвале
+  </div>
+    </footer>
+  </body>
+</html>
